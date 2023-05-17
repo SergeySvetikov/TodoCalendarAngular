@@ -1,0 +1,7 @@
+<p>
+  <i class="pi pi-angle-left" (click)="go(-1)"></i>
+  <span>
+    {{ _dateService.date | async | moment }}
+  </span>
+  <i class="pi pi-angle-right" (click)="go(1)"></i>
+</p>
